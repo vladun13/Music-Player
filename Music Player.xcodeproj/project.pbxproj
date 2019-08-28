@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8C27C0BD23168C250041DF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27C0BC23168C250041DF54 /* AppDelegate.swift */; };
-		8C27C0BF23168C250041DF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27C0BE23168C250041DF54 /* ViewController.swift */; };
 		8C27C0C223168C250041DF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C27C0C023168C250041DF54 /* Main.storyboard */; };
 		8C27C0C423168C260041DF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C27C0C323168C260041DF54 /* Assets.xcassets */; };
 		8C27C0C723168C260041DF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C27C0C523168C260041DF54 /* LaunchScreen.storyboard */; };
 		8C27C0D223168C260041DF54 /* Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27C0D123168C260041DF54 /* Music_PlayerTests.swift */; };
 		8C27C0DD23168C260041DF54 /* Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27C0DC23168C260041DF54 /* Music_PlayerUITests.swift */; };
+		8C27C0EB23168C940041DF54 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C27C0EA23168C940041DF54 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		8C27C0B923168C250041DF54 /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C27C0BC23168C250041DF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C27C0BE23168C250041DF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C27C0C123168C250041DF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C27C0C323168C260041DF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C27C0C623168C260041DF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		8C27C0D823168C260041DF54 /* Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C27C0DC23168C260041DF54 /* Music_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_PlayerUITests.swift; sourceTree = "<group>"; };
 		8C27C0DE23168C260041DF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C27C0EA23168C940041DF54 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				8C27C0BC23168C250041DF54 /* AppDelegate.swift */,
-				8C27C0BE23168C250041DF54 /* ViewController.swift */,
+				8C27C0EA23168C940041DF54 /* GenreButtonScreen.swift */,
 				8C27C0C023168C250041DF54 /* Main.storyboard */,
 				8C27C0C323168C260041DF54 /* Assets.xcassets */,
 				8C27C0C523168C260041DF54 /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C27C0BF23168C250041DF54 /* ViewController.swift in Sources */,
 				8C27C0BD23168C250041DF54 /* AppDelegate.swift in Sources */,
+				8C27C0EB23168C940041DF54 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
